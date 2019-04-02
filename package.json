@@ -2,6 +2,7 @@
   "name": "personal-typescript-starter",
   "version": "0.0.1",
   "description": "vincenteof's personal typescript starter for creating library",
+  "repository": "https://github.com/vincenteof/personal-typescript-starter",
   "main": "dist/starter.umd.js",
   "module": "dist/starter.es5.js",
   "scripts": {
@@ -18,7 +19,7 @@
       "js"
     ],
     "transform": {
-      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+      "\\.(ts|tsx)$": "ts-jest"
     }
   },
   "husky": {
